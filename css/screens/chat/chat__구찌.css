@@ -1,0 +1,46 @@
+.img_message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.img_message-row img{
+    width: 57px;
+    height: 57px;
+    border-radius: 45%;
+    margin-right: 10px;
+}
+
+.img_message__info img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.img_message__author{
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.img_message__info{
+    display: flex;
+    align-items: flex-end;
+}
+
+.img_message__bubble{
+    font-size: 15px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+}
+
+.img_message__time{
+    opacity: 0.5;
+    font-size: 12px;
+}

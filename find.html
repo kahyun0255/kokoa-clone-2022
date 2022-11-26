@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Clone</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <sapn>No Service</sapn>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z" />
+              </svg> -->
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>127%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Add by <br> Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">recommended-friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#하현상</h5>
+                    <h6 class="open-post__hashtags">#하현상#hoppipolla#friends#호피폴라</h6>
+                    <div class="open-post__members">
+                        <img src="https://avatars.githubusercontent.com/u/118621852?s"/>
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"> </div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://w.namu.la/s/e7f69f01934b644c504d523726fdbc0f7694d6a196d6de357dae865930d1732ff218ff00b2eac278c9b9f7b5f271d7fde795635b30e0706bfcc64b813d8868abbdb4e4af86161bc404c095768b5f474363ce4b7a622a072719371cbff171d02cac41efb2b8873624afebc837ae527530"/>
+                        <div class="open-post__heart-count"><i class="fa-solid fa-heart fa-xs"></i><span>924</span></div>
+                    </div>
+                </img>
+            </div>
+        </div>
+    </main>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__circle"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too bigㅜㅜ</span>
+    </div>
+    
+    <script 
+        src="https://kit.fontawesome.com/fd58951289.js"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>

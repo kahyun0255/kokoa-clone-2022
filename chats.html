@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -28,101 +28,91 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i> Friends' Names Display <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-        <div class="user-component">
-            <div class="user-component__coloumn">
-                <img src="https://avatars.githubusercontent.com/u/118621852?s" class="user-component__avatar user-component__avatar--xl"/>
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Kimkahyun</h4>
-                    <!-- <h6 class="user-conponent__subtitle">this text whatever</h6> -->
-                </div> 
-            </div>
-            <div class="user-component__coloumn"></div>
-        </div>
-
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Friends</span><i class="fa-solid fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component user-component-friend">
+    <main class="main-screen">
+        <a href="chat/chat__구름.html">
+            <div class="user-component user-component-chats">
                 <div class="user-component__coloumn">
-                    <img src="media/구름이.jpg" class="user-component__avatar user-component__avatar--sm"/>
+                    <img src="./media/구름이.jpg" class="user-component__avatar"/>
                     <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">구름이</h4>
+                        <h4 class="user-component__title">구름이</h4>
+                        <h6 class="user-conponent__subtitle">츄르 사와</h6>
                     </div> 
                 </div>
                 <div class="user-component__coloumn">
-                    <div>
-                        <!-- <span></span><i class="fa-solid fa-chevron-right fa-xs"></i> -->
-                    </div>
+                    <span class="user-component__time">01:27</span>
+                    <div class="badge">1</div>
                 </div>
             </div>
-            
-            <div class="user-component user-component-friend">
-                <div class="user-component__coloumn">
-                    <img src="media/까미.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">까미</h4>
-                    </div> 
-                </div>
-                <div class="user-component__coloumn">
-                    <div>
-                        <!-- <span></span><i class="fa-solid fa-chevron-right fa-xs"></i> -->
-                    </div>
-                </div>
-            </div>
+        </a>
 
-            <div class="user-component user-component-friend">
+        <a href="chat/chat__구찌.html">
+            <div class="user-component user-component-chats">
                 <div class="user-component__coloumn">
-                    <img src="media/뽀미.jpg" class="user-component__avatar user-component__avatar--sm"/>
+                    <img src="media/구찌.jpg" class="user-component__avatar"/>
                     <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">고뽀미</h4>
+                        <h4 class="user-component__title">김구찌</h4>
+                        <h6 class="user-conponent__subtitle">머 하구 잇서?</h6>
                     </div> 
                 </div>
                 <div class="user-component__coloumn">
-                    <div>
-                        <!-- <span></span><i class="fa-solid fa-chevron-right fa-xs"></i> -->
-                    </div>
+                    <span class="user-component__time">01:27</span>
+                    <!-- <div class="badge">1</div> -->
                 </div>
             </div>
+        </a>
 
-            <div class="user-component user-component-friend">
+        <a href="chat/chat__까미.html">
+            <div class="user-component user-component-chats">
                 <div class="user-component__coloumn">
-                    <img src="media/구찌.jpg" class="user-component__avatar user-component__avatar--sm"/>
+                    <img src="media/까미.jpg" class="user-component__avatar"/>
                     <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">김구찌</h4>
+                        <h4 class="user-component__title">까미</h4>
+                        <h6 class="user-conponent__subtitle">언제 올거야ㅜㅜ</h6>
                     </div> 
                 </div>
                 <div class="user-component__coloumn">
-                    <div>
-                        <!-- <span></span><i class="fa-solid fa-chevron-right fa-xs"></i> -->
-                    </div>
+                    <span class="user-component__time">01:27</span>
+                    <div class="badge">5</div>
                 </div>
             </div>
-        </div>
+        </a>
+
+        <a href="chat/chat__뽀미.html">
+            <div class="user-component user-component-chats">
+                <div class="user-component__coloumn">
+                    <img src="media/뽀미.jpg" class="user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">고뽀미</h4>
+                        <h6 class="user-conponent__subtitle">또 늦어??</h6>
+                    </div> 
+                </div>
+                <div class="user-component__coloumn">
+                    <span class="user-component__time">01:27</span>
+                    <div class="badge">3</div>
+                </div>
+            </div>
+        </a>
+
     </main>
     
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <i class="fa-solid fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
@@ -136,10 +126,6 @@
             </li>
         </ul>
     </nav>
-
-    <div id="splash-screen">
-        <i class="fa-solid fa-comment"></i>
-    </div>
 
     <div id="no-mobile">
         <span>Your screen is too bigㅜㅜ</span>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 @import "reset.css";
 @import "variables.css";
 
@@ -6,11 +7,29 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*Screnns*/
 @import "screens/login.css";
+@import "screens/friend.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat/chat__구름.css";
+@import "screens/chat/chat__구찌.css";
+@import "screens/chat/chat__까미.css";
+@import "screens/chat/chat__뽀미.css";
+@import "screens/chat/chat.css";
 
 body{
+    color:#2e363e;
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
